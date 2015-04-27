@@ -1799,6 +1799,8 @@ void extract_cal_data(int len)
 		pr_err("wcnss: incomplete cal header length\n");
 		return;
 	}
+//y.z
+memset(&calhdr, 0, sizeof(struct cal_data_params));
 
 	rc = smd_read(penv->smd_ch, (unsigned char *)&calhdr,
 			sizeof(struct cal_data_params));

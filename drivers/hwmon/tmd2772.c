@@ -37,7 +37,7 @@
 #include <linux/hrtimer.h>
 #include <linux/of_gpio.h>
 #include <linux/regulator/consumer.h>
-
+#include <linux/sensors.h>
 #define LOG_TAG "SENSOR_ALS_PROX"
 #define DEBUG_ON
 

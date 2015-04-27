@@ -397,8 +397,8 @@ struct qpnp_chg_chip {
 #include <../../arch/arm/mach-msm/clock.h>
 #define POWER_MONITOR_PERIOD_MS	10000
 #define DRV_NAME "zte_power_debug"
-static int power_debug_switch=1;
-static struct qpnp_chg_chip *chip_temp;
+//static int power_debug_switch=1;
+//static struct qpnp_chg_chip *chip_temp;
 extern int msm_show_resume_irq_mask; //used to print the resume irq
 extern void global_print_active_locks( void );
 //print suspend_states
